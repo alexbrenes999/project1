@@ -1,33 +1,60 @@
 <!DOCTYPE html>
-<html>
-<link rel="stylesheet" href="./assets/css/style.css">
-<script src="https://cdn.tailwindcss.com/%22%3E"></script>
-    <head>
-        <div id="header">INDIE SPOTLIGHT</div>
-        <meta name="description" content="Indie Spotlight Landing Page">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-    </head>
-        
-        <!--Need to make the hero work-->
-    <!-- <section class="hero">
-        <div>
-            <a href="https://static1.cbrimages.com/wordpress/wp-content/uploads/2022/04/10-Indie-Games-With-The-Best-Looking-Pixel-Art.jpg"></a>
-        </div>
-    </section> -->
-    <body>
-       
-        <div>
-            <p>Spotlight</p>
-        </div>
-        
-        <div>
-            <p>Top 10 Games</p>
-        </div>
-        <div>
-            <p>Search</p>
-            <input type="text" id="search-bar" name="Search" placeholder="Inscryption">
-            <button class="button">Search</button>
-        </div>
-        
-    </body>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Unbounded&display=swap" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="./assets/css/reset.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <title>Indie Spotlight</title>
+</head>
+
+<body>
+
+    <header class="bg-gray-800">
+        <h1 class="text-emerald-700 p-3 text-7xl">Indie Game Spotlight</h1>
+    </header>
+
+    <main class="bg-gray-700">
+        <section>
+            <h2 class="flex justify-center p-4 pt-10 text-6xl text-emerald-100">Welcome!</h2>
+            <p class="text-emerald-100 px-52 py-8 text-3xl">Hello fellow gamers! We all love those Triple-A game titles, but have you ever wondered about how many games you may
+            have missed out on because of them being on smaller platforms or just getting little to no recognition? No worries!
+            We are here to allow you to discover some of the coolest indie titles released this year that you may have missed and
+            providing you with some extra info you may be curious about.</p>
+        </section>
+
+        <section class="flex justify-center flex-col">
+            <div><input type="text" placeholder="Search.. eg. 'Horror', 'By Askiisoft', 'Katana ZERO'"></div>
+            <button class="text-white bg-emerald-600 p-5 border-2 rounded full" type="btn">Search</button>
+        </section>
+
+       <section class='text-emerald-100'>
+            <div class="bg-gray-800 border-emerald-600 border-dotted rounded border-2 mx-96 my-8">
+                <h3 class="p-2 text-xl">Rising Stars</h3>
+                <ul class="pb-4 pl-8 list-disc">
+                    <li>person1</li>
+                    <li>person2</li>
+                    <li>person3</li>
+                    <li>person4</li>
+                </ul>
+            </div>
+            <div class="bg-gray-800 border-emerald-600 border-dotted rounded border-2 mx-96 my-8">
+                <h3 class="p-2 text-xl">Top 5 most played Indie titles of 2022</h3>
+                <ul class="pb-4 pl-8 list-disc">
+                    <li>game1</li>
+                    <li>game2</li>
+                    <li>game3</li>
+                    <li>game4</li>
+                </ul>
+            </div>
+       </section>
+    </main>
+    <footer class='bg-gray-800'>
+        <h3>Hello World!</h3>
+    </footer>
+
+</body>
 </html>
