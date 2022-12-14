@@ -1,1 +1,31 @@
+#header {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    font-size: xx-large;
+    color: white;
+}
 
+p {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: x-large;
+    color: white;
+    padding: 100px;
+}
+input {
+    position: relative; left: 100px; bottom: 75px;
+    
+}
+button{
+    position: relative; left: 100px; bottom: 75px;
+}
+
+html {
+    background-color: black;
+}
+
+/*tried making a hero image but failed, this url is the tentative image although nothing is set in stone it's just part of the skeleton*/
+
+/* .hero {
+    background-image: url("https://static1.cbrimages.com/wordpress/wp-content/uploads/2022/04/10-Indie-Games-With-The-Best-Looking-Pixel-Art.jpg")
+} */
