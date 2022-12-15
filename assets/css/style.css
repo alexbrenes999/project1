@@ -6,3 +6,24 @@ h2 {
     font-family: 'Unbouded';
 }
 
+
+/* this positioning allows for the search button itself to be in the middle and then the search input field to be adjusted to the button due to difficulties moving the button where I wanted it to -Gus */
+div input {
+    position: absolute; left: 860px; top: 300px;
+}
+
+
+
+/* the hero image is seen in the inspect tool but I am having a hard time having it show up. when i tried specifying a height, it shows up but as a grey image and above the header -Gus
+/* .hero-image {
+    background-image: linear-gradient(
+        rgba(0,0,0,0.7), 
+        rgba(0,0,0,0.7)), 
+        url("../assets/images/indie-games-hero-image.PNG");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+} */
