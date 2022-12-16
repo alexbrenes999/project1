@@ -9,7 +9,7 @@ h2 {
 
 /* this positioning allows for the search button itself to be in the middle and then the search input field to be adjusted to the button due to difficulties moving the button where I wanted it to -Gus */
 div input {
-    position: absolute; left: 860px; top: 300px;
+    position: absolute; left: 860px; top: 500px;
 }
 
 
