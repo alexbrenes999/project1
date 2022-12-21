@@ -4,75 +4,66 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Unbounded&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
     <script src="https://cdn.tailwindcss.com"></script>
+<<<<<<< HEAD:search-results.html
     <link rel="stylesheet" href="./assets/css/search-results-style.css">
     <link rel="stylesheet" href="./assets/css/search-results-style.css">
+=======
+    <link rel="stylesheet" href="../css/search-result.css">
+>>>>>>> c0e6cd9f7336bd42696b09bc69de71d8cc6258d5:assets/html/search-results.html
     <title>Document</title>
 </head>
 <body>
-    <section class="bg-gray-700" id="nav">
-        <h2 class="flex justify-center p-4 pt-10 text-3xl text-emerald-100 md:font-bold">Nav</h2>
-    </section>
-    <main class="bg-gray-700">
-        <h1 class="flex justify-center p-4 pt-10 text-5xl text-emerald-100 md:font-bold">Games</h1>
-        <div class="flex justify-center">
-            <div class="rounded-lg shadow-lg bg-white max-w-sm">
-              <a href="#!">
-                <img class="rounded-t-lg" src="https://mdbootstrap.com/img/new/standard/nature/184.jpg" alt=""/>
-              </a>
-              <div class="p-6">
-                <h5 class="text-gray-900 text-xl font-medium mb-2">Game 1</h5>
-                <p class="text-gray-700 text-base mb-4">
-                  Some quick example text to build on the card title and make up the bulk of the card's
-                  content.
-                </p>
-                <button type="button" class=" inline-block px-6 py-2.5 bg-blue-600 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-blue-700 hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out">Game Name</button>
-              </div>
-            </div>
-          </div>
-          <div class="flex justify-center">
-            <div class="rounded-lg shadow-lg bg-white max-w-sm">
-              <a href="#!">
-                <img class="rounded-t-lg" src="https://mdbootstrap.com/img/new/standard/nature/184.jpg" alt=""/>
-              </a>
-              <div class="p-6">
-                <h5 class="text-gray-900 text-xl font-medium mb-2">Game 2</h5>
-                <p class="text-gray-700 text-base mb-4">
-                  Some quick example text to build on the card title and make up the bulk of the card's
-                  content.
-                </p>
-                <button type="button" class=" inline-block px-6 py-2.5 bg-blue-600 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-blue-700 hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out">Game Name</button>
-              </div>
-            </div>
-          </div>
-          <h1 class="flex justify-center p-4 pt-10 text-5xl text-emerald-100 md:font-bold">Genre</h1>
-          <div class="flex justify-center">
-            <div class="rounded-lg shadow-lg bg-white max-w-sm">
-              <a href="#!">
-                <img class="rounded-t-lg" src="https://mdbootstrap.com/img/new/standard/nature/184.jpg" alt=""/>
-              </a>
-              <div class="p-6">
-                <h5 class="text-gray-900 text-xl font-medium mb-2">Genre</h5>
-                <p class="text-gray-700 text-base mb-4">
-                  Some quick example text to build on the card title and make up the bulk of the card's
-                  content.
-                </p>
-                <button type="button" class=" inline-block px-6 py-2.5 bg-blue-600 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-blue-700 hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out">Game Name</button>
-              </div>
-            </div>
-          </div>
-        <!-- <section id="games">
-            <h1 class="flex justify-left p-4 pt-10 text-5xl md:font-bold">Games</h1>
-                <p class="flex p-4 pt-10 text-3xl" id="game-number">Game #1</p>
-                <p class="flex p-4 pt-10 text-3xl" id="game-number">Game #2</p>
-        </section>
-        <section id="genres">
-            <h1 class="flex justify-left p-4 pt-10 text-5xl md:font-bold">Genres</h1>
-                <p class="flex p-4 pt-10 text-3xl" id="game-number">Game #1</p>
-                <p class="flex p-4 pt-10 text-3xl" id="game-number">Game #2</p>
-        </section> -->
-    </main>
+
+  <nav class="flex p-4 place-content-between border-4">
+    <header class="text-4xl">Indie Spotlight</header>
+      <ul class="flex text-2xl">
+          <li class="mx-20" id="home-page-button">Home</li>
+          <li class="mx-20">Search</li>
+            <!-- insert another search bar -->
+      </ul>
+  </nav>
+
+  <!-- All content card -->
+  <main class="mx-36 my-10 bg-pink-500 rounded shadow-2xl">
+    <!-- Section Title -->
+    <h2 class="text-4xl px-5 py-5">Games</h2>
+    <!-- "Game Section Container" -->
+    <div class="grid grid-cols-3 gap-20 px-16">
+      <!-- Game Card #1 -->
+      <div class="flex flex-col justify-center p-5 bg-emerald-500 rounded">
+        <img class="rounded shadow-xl" src="../images/default.jpg">
+        <h3 class="text-xl text-center py-4">Game Title</h3>
+      </div>
+      <!-- Game Card #2 -->
+      <div class="flex flex-col justify-center p-5">
+        <img class="rounded shadow-xl" src="../images/default.jpg">
+        <h3 class="text-xl text-center py-4">Game Title</h3>
+      </div>
+      <!-- Game Card #3 -->
+      <div class="flex flex-col justify-center p-5">
+        <img class="rounded shadow-xl" src="../images/default.jpg">
+        <h3 class="text-xl text-center py-4">Game Title</h3>
+      </div>
+      <!-- Game Card #4 -->
+      <div class="flex flex-col justify-center p-5">
+        <img class="rounded shadow-xl" src="../images/default.jpg">
+        <h3 class="text-xl text-center py-4">Game Title</h3>
+      </div>
+      <!-- Game Card #5 -->
+      <div class="flex flex-col justify-center p-5">
+        <img class="rounded shadow-xl" src="../images/default.jpg">
+        <h3 class="text-xl text-center py-4">Game Title</h3>
+      </div>
+      <!-- Game Card #6 -->
+      <div class="flex flex-col justify-center p-5">
+        <img class="rounded shadow-xl" src="../images/default.jpg">
+        <h3 class="text-xl text-center py-4">Game Title</h3>
+      </div>
+    </div>
+
+  </main>
     
 </body>
 </html>
