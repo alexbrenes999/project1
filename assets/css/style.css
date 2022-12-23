@@ -26,8 +26,13 @@ body {
 /* Make the images invisible by default */
 .Containers {
   display: none;
+
+/* this positioning allows for the search button itself to be in the middle and then the search input field to be adjusted to the button due to difficulties moving the button where I wanted it to -Gus */
+
+
 }
 /* this positioning allows for the search button itself to be in the middle and then the search input field to be adjusted to the button due to difficulties moving the button where I wanted it to -Gus */
+
 
 /* forward & Back buttons */
 .Back, .forward {
