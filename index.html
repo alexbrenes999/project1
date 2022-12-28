@@ -33,9 +33,9 @@
         <!-- adding the 1 to flex-col-1 seems to have fixed the screen width sized button that we had for a search button - Gus -->
         <section class="flex justify-center flex-col-1">
             <form class="flex-initial">
-                <input class="w-70 h-10 text-sm rounded shadow-xl" type="text"
+                <input class="w-70 h-10 text-sm rounded shadow-xl" id="userInput" type="text"
                     placeholder="Search.. eg. 'Horror', 'By Askiisoft', 'Katana ZERO'">
-                <button class="text-white bg-indigo-600 p-2 h-10 hover:bg-indigo-500 rounded shadow"
+                <button class="text-white bg-indigo-600 p-2 h-10 hover:bg-indigo-500 rounded shadow" id="searchButton"
                     type="btn">Search</button>
             </form>
         </section>
@@ -134,6 +134,7 @@
     <!-- <footer class='fixed bottom-0 left-0 right-0 bg-gray-800'>
         <h3>Hello World!</h3>
     </footer> -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
     <script src="./assets/js/game-info.js"></script>
     <script src="./assets/js/carousel.js"></script>
     <script src="./assets/js/modal.js"></script>

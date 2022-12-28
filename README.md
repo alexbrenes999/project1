@@ -35,3 +35,5 @@ Alexander Brenes-Pimentel: https://github.com/alexbrenes999
 ## GitHub Pages link
 
 ...
+
+![portfolio demo](/assets/html/search-results.html)
