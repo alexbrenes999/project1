@@ -1,66 +1,70 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap"
+      rel="stylesheet"
+    />
     <script src="https://cdn.tailwindcss.com"></script>
-    <link rel="stylesheet" href="./assets/css/search-result.css">
-    <title>Gaming Spotlight</title>
-</head>
-<body>
+    <link rel="stylesheet" href="./assets/css/search-result.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <nav class="flex p-4 place-content-between border-4">
+      <header class="text-4xl">Indie Spotlight</header>
+      <ul class="flex text-2xl">
+        <li class="mx-20" id="home-page-button">Home</li>
+        <li class="mx-20">Search</li>
+        <!-- insert another search bar -->
+      </ul>
+    </nav>
 
-  <nav class="flex p-4 place-content-between bg-black text-white bg-gradient-to-b from-black to-zinc-600">
-    <div class="flex">
-      <img class="h-20 w-20 rounded-full" src="./assets/images/sans-icon.jpg" alt="icon of a gameboy">
-      <header class="p-5 text-4xl">Gaming Spotlight</header>
-    </div>
-        <div class="flex p-5 text-2xl">
-            <a href="./index.html"><button class="mx-20 hover:scale-110 hover:opacity-90" id="home-page-button">Home</button></a>
-              <!-- insert another search bar -->
+    <!-- All content card -->
+    <main class="mx-36 my-10 bg-pink-500 rounded shadow-2xl">
+      <!-- Section Title -->
+      <h2 class="text-4xl px-5 py-5">Games</h2>
+      <!-- "Game Section Container" -->
+      <div class="grid grid-cols-3 gap-20 px-16">
+        <!-- Game Card #1 -->
+        <div class="flex flex-col justify-center p-5 bg-emerald-500 rounded">
+          <img class="resultsImage rounded shadow-xl" src="" />
+          <h3 id="gameId" class="resultsTitle text-xl text-center py-4">Game Title</h3>
         </div>
-  </nav>
+        <!-- Game Card #2 -->
+        <div class="flex flex-col justify-center p-5">
+          <img class="resultsImage rounded shadow-xl" src="" />
+          <h3 id="gameId" class="resultsTitle text-xl text-center py-4">Game Title</h3>
+        </div>
+        <!-- Game Card #3 -->
+        <div class="flex flex-col justify-center p-5">
+          <img class="resultsImage rounded shadow-xl" src="" />
+          <h3 id="gameId" class="resultsTitle text-xl text-center py-4">Game Title</h3>
+        </div>
+        <!-- Game Card #4 -->
+        <div class="flex flex-col justify-center p-5">
+          <img class="resultsImage rounded shadow-xl" src="" />
+          <h3 id="gameId" class="resultsTitle text-xl text-center py-4">Game Title</h3>
+        </div>
+        <!-- Game Card #5 -->
+        <div class="flex flex-col justify-center p-5">
+          <img class="resultsImage rounded shadow-xl" src=""" />
+          <h3 id="gameId" class="resultsTitle text-xl text-center py-4">Game Title</h3>
+        </div>
+        <!-- Game Card #6 -->
+        <div class="flex flex-col justify-center p-5">
+          <img class="resultsImage rounded shadow-xl" src="" />
+          <h3 id="gameId" class="resultsTitle text-xl text-center py-4">Game Title</h3>
+        </div>
+      </div>
+    </main>
 
-  <!-- All content card -->
-  <main class="mx-36 my-10 rounded">
-    <!-- Section Title -->
-    <h2 id="game-category" class="flex justify-center mb-9 mx-96 text-4xl px-5 py-5 bg-black text-white rounded shadow-2xl bg-gradient-to-b from-black to-zinc-600"> Games</h2>
-    <!-- "Game Section Container" -->
-    <div class="grid grid-cols-3 gap-20 px-16 opacity-100">
-      <!-- Game Card #1 -->
-      <div class="flex flex-col justify-center hover:opacity-90 hover:scale-110 hover:bg-fuchsia-400 p-5 bg-fuchsia-800 rounded">
-        <img class="rounded shadow-xl" src="./assets/images/default.jpg">
-        <h3 class="text-xl text-center py-4">Game Title</h3>
-      </div>
-      <!-- Game Card #2 -->
-      <div class="flex flex-col justify-center hover:opacity-90 hover:scale-110 hover:bg-violet-300 p-5 bg-violet-600 rounded">
-        <img class="rounded shadow-xl" src="./assets/images/default.jpg">
-        <h3 class="text-xl text-center py-4">Game Title</h3>
-      </div>
-      <!-- Game Card #3 -->
-      <div class="flex flex-col justify-center hover:opacity-90 hover:scale-110 hover:bg-fuchsia-400 p-5 bg-fuchsia-800 rounded">
-        <img class="rounded shadow-xl" src="./assets/images/default.jpg">
-        <h3 class="text-xl text-center py-4">Game Title</h3>
-      </div>
-      <!-- Game Card #4 -->
-      <div class="flex flex-col justify-center hover:opacity-90 hover:scale-110 hover:bg-violet-300 p-5 bg-violet-600 rounded">
-        <img class="rounded shadow-xl" src="./assets/images/default.jpg">
-        <h3 class="text-xl text-center py-4">Game Title</h3>
-      </div>
-      <!-- Game Card #5 -->
-      <div class="flex flex-col justify-center hover:opacity-90 hover:scale-110 hover:bg-fuchsia-400 p-5 bg-fuchsia-800 rounded">
-        <img class="rounded shadow-xl" src="./assets/images/default.jpg">
-        <h3 class="text-xl text-center py-4">Game Title</h3>
-      </div>
-      <!-- Game Card #6 -->
-      <div class="flex flex-col justify-center hover:opacity-90 hover:scale-110 hover:bg-violet-300 p-5 bg-violet-600 rounded">
-        <img class="rounded shadow-xl" src="./assets/images/default.jpg">
-        <h3 class="text-xl text-center py-4">Game Title</h3>
-      </div>
-    </div>
-
-  </main>
-    
-</body>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="./assets/js/script.js"></script>
+    <script src="./assets/js/results-page.js"></script>
+  </body>
 </html>
