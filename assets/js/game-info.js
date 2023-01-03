@@ -45,8 +45,9 @@ $(function () {
     let channelNameEl = $(`.channelName`);
     let videoDescriptionEl = $(`.videoDescription`);
 
-    var apiKey = "AIzaSyBAnXu05c-vmBzUNTXWTLV5L4GaoN9OGyE"
-    // var apiKey = "AIzaSyAe5b-AzhWbl3ImdWGb6YnzmtDRcPbeXes"
+    // Note to Faye: We subbed the keys because they we'rent working prior to that
+    // var apiKey = "AIzaSyBAnXu05c-vmBzUNTXWTLV5L4GaoN9OGyE"
+    var apiKey = "AIzaSyAe5b-AzhWbl3ImdWGb6YnzmtDRcPbeXes"
 
     fetch(`https://www.googleapis.com/youtube/v3/search?key=${apiKey}&q=${game}+review|${game}+gameplay&type=video&part=snippet&videoEmbeddable=true`
     )
