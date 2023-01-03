@@ -30,8 +30,7 @@ $(function () {
         summaryEl.text(object.description_raw);
     }
 
-
-    fetch("https://api.rawg.io/api/games?id=" + gameId + "&page_size=1&key=" + key)
+    fetch("https://api.rawg.io/api/games/" + gameId + "?key=" + key)
         .then(function (res) {
             return res.json();
         })
