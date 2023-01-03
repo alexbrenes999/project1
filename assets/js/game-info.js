@@ -81,7 +81,7 @@ $(function () {
       $(videoDescriptionEl).text(data.items[i].snippet.description);
       document.querySelector(
         "iframe"
-      ).src = `http://www.youtube.com/embed/${videoId}?enablejsapi=1`;
+      ).src = `https://www.youtube.com/embed/${videoId}?enablejsapi=1`;
 
       if (i >= 2) {
         break;
